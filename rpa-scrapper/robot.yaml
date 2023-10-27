@@ -1,0 +1,14 @@
+tasks:
+  entrypoint:
+    command:
+      - python
+      - run_scrapper.py
+
+condaConfigFile: conda.yaml
+artifactsDir: output
+ignoreFiles:
+  - .gitignore
+PATH:
+  - .
+PYTHONPATH:
+  - .
